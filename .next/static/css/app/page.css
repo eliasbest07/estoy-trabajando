@@ -1,0 +1,67 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/cube.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.scene {
+    color: #fff;
+    font-size: 2em;
+    height: 10em;
+    width: 10em;
+    perspective: 30em;
+  }
+  
+  .cube {
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    width: 100%;
+  }
+  
+  .cube > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25em solid #fff;
+    height: 100%;
+    position: absolute;    
+    border-radius: 10%; /* Add rounded corners to the faces */
+    overflow: hidden; /* Ensure content (like images) is clipped by rounded corners */
+    width: 100%
+  }
+  
+.front {
+
+    transform: rotateY(0deg) translateZ(5em)
+  }
+  
+  .back {
+    background-color: #4cd964cd;
+    transform: rotateY(180deg) translateZ(5em)
+  }
+  
+  .left {
+    background-color: #007affcd;
+    transform: rotateY(-90deg) translateZ(5em)
+  }
+  
+  .right {
+    background-color: #5856d6cd;
+    transform: rotateY(90deg) translateZ(5em)
+  }
+  
+  .top {
+    background-color: #ffcc00cd;
+    transform: rotateX(90deg) translateZ(5em)
+  }
+  
+  .down {
+    background-color: #ff9500cd;
+    transform: rotateX(-90deg) translateZ(5em)
+  }
+  
+  .move-front  { transform: translateZ(-10em) rotateY(0deg); }
+  .move-right  { transform: translateZ(-10em) rotateY(-90deg); }
+  .move-back   { transform: translateZ(-10em) rotateY(-180deg); }
+  .move-left   { transform: translateZ(-10em) rotateY(90deg); }
+  .move-top    { transform: translateZ(-10em) rotateX(-90deg); }
+  .move-bottom { transform: translateZ(-10em) rotateX(90deg); }
