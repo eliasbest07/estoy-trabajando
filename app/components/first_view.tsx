@@ -58,17 +58,17 @@ export default function FirstView() {
               <CalendarIcon className="mx-auto h-12 w-12 text-gray-500 dark:text-gray-400" />
               <h3 className="text-xl font-bold"></h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Organizamos las actividades de tal manera que sea facil cumplir con el trabajo a tiempo.
+                Organizamos las actividades de tal manera que sea fácil cumplir con el trabajo a tiempo.
               </p>
             </div>
             <div className="space-y-2 text-center">
               <CheckIcon className="mx-auto h-12 w-12 text-gray-500 dark:text-gray-400" />
               <h3 className="text-xl font-bold">Cumplir con las tareas</h3>
-              <p className="text-gray-500 dark:text-gray-400">Esta plataforma facilita el seguimente de las tareas completadas y la recompeza por cumpliarlas.</p>
+              <p className="text-gray-500 dark:text-gray-400">Esta plataforma facilita el seguimiento de las tareas completadas y la recompensa por cumplirlas.</p>
             </div>
             <div className="space-y-2 text-center">
               <SignalIcon className="mx-auto h-12 w-12 text-gray-500 dark:text-gray-400" />
-              <h3 className="text-xl font-bold">Covertura</h3>
+              <h3 className="text-xl font-bold">Cobertura</h3>
               <p className="text-gray-500 dark:text-gray-400">En todo momento puedes ver el avance, notificar modificaciones, pausar entregas</p>
             </div>
           </div>
